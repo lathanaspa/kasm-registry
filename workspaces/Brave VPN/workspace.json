@@ -1,7 +1,7 @@
 {
-  "description": "Chromium is a free and open-source browser, primarily developed and maintained by Google.",
+  "description": "The Brave browser is a fast, private and secure web browser.",
   "docker_registry": "https://index.docker.io/v1/",
-  "image_src": "chromium.png",
+  "image_src": "brave.png",
   "run_config": {
     "hostname": "kasm"
   },
@@ -16,7 +16,7 @@
   "categories": [
     "Browser"
   ],
-  "friendly_name": "Chromium",
+  "friendly_name": "Brave - VPN",
   "architecture": [
     "amd64",
     "arm64"
