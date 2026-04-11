@@ -16,7 +16,7 @@
   "categories": [
     "Browser"
   ],
-  "friendly_name": "Ubuntu Jammy - VPN",
+  "friendly_name": "Ubuntu Focal - VPN",
   "architecture": [
     "amd64",
     "arm64"
@@ -24,7 +24,7 @@
   "compatibility": [
     {
       "version": "1.17.x",
-      "image": "lathanaspa/kasm-ubuntu-jammy-desktop-vpn:develop",
+      "image": "lathanaspa/kasm-ubuntu-focal-desktop:develop",
       "uncompressed_size_mb": 2170,
       "available_tags": [
         "develop"
