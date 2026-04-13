@@ -1,0 +1,33 @@
+{
+  "description": "The comfort of your webmail now in your desktop with the Zoho Mail Desktop Lite client.",
+  "docker_registry": "https://index.docker.io/v1/",
+  "image_src": "zoho-mail.png",
+  "run_config": {
+    "hostname": "kasm"
+  },
+  "exec_config": {
+    "go": {
+      "cmd": "bash -c '/dockerstartup/custom_startup.sh --go --url \"$KASM_URL\"'"
+    },
+    "assign": {
+      "cmd": "bash -c '/dockerstartup/custom_startup.sh --assign --url \"$KASM_URL\"'"
+    }
+  },
+  "categories": [
+    "Browser"
+  ],
+  "friendly_name": "Zoho Mail",
+  "architecture": [
+    "amd64"
+  ],
+  "compatibility": [
+    {
+      "version": "1.18.x",
+      "image": "lathanaspa/kasm-zoho-mail:develop",
+      "uncompressed_size_mb": 2170,
+      "available_tags": [
+        "develop"
+      ]
+    }
+  ]
+}
