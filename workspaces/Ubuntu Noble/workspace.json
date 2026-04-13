@@ -14,7 +14,9 @@
     }
   },
   "categories": [
-    "Browser"
+    "Desktop",
+    "Productivity",
+    "Development"
   ],
   "friendly_name": "Ubuntu Noble",
   "architecture": [
