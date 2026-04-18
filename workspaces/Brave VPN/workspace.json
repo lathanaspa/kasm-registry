@@ -42,7 +42,7 @@
     {
       "version": "1.18.x",
       "image": "lathanaspa/kasm-brave-vpn:develop",
-      "uncompressed_size_mb": 2170,
+      "uncompressed_size_mb": 4930,
       "available_tags": [
         "develop"
       ]

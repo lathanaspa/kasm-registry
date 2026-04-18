@@ -42,7 +42,7 @@
     {
       "version": "1.18.x",
       "image": "lathanaspa/kasm-chrome-vpn:develop",
-      "uncompressed_size_mb": 2170,
+      "uncompressed_size_mb": 4980,
       "available_tags": [
         "develop"
       ]
